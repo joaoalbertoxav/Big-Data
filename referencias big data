@@ -11,3 +11,53 @@
 
 link do arquivo escrito no medium
 https://medium.com/@joaoalbertoxavier4/o-que-s%C3%A3o-os-5vs-em-big-data-6d8e21b36f6a
+
+
+#01 Escreva uma função que receba um número inteiro como parâmetro e informe se ele é positivo, negativo ou ZERO.
+ def verificar_numero(numero):
+#  if numero > 0:
+#      return "Positivo"
+#  elif numero < 0:
+#      return "Negativo"
+#  else:
+#      return "ZERO"
+#numero = int(input("Digite um número: "))
+#print("O número é", verificar_numero(numero))
+
+
+
+#02 - def contar_pares(numero1, numero2):
+#  quantidade_pares = 0
+#  if numero1 % 2 == 0:
+#      quantidade_pares += 1
+#  if numero2 % 2 == 0:
+#      quantidade_pares += 1
+#  return quantidade_pares
+#numero1 = int(input("Digite o número1: "))
+#numero2 = int(input("Digite o número2: "))
+#quantidade = contar_pares(numero1, numero2)
+#print("Quantidade de números pares:", quantidade)
+
+
+
+#03 Escreva uma função que receba um número
+inteiro como parâmetro e informe se ele é par ou ímpar
+ def numero_inteiro(numero):
+#  if numero % 2 == 0:
+#    return "par"
+#  else:
+#    return "impar"
+#numero = int(input("digite o numero e descubra se ele é ímpar ou par:"))
+#print("o numero é", numero_inteiro(numero))
+
+
+
+#05 Escreva uma função que receba dois parâmetros, sendo o primeiro um número inteiro e o segundo uma porcentagem, depois calcule e retorne o valor do número somado ao aumento percentual informado.
+def calcular_aumento(numero, percentual):
+#  aumento = numero * (percentual / 100)
+#  novoValor = numero + aumento
+#  return novoValor 
+#numero = float(input("Digite o número: "))
+#percentual = float(input("Digite quantos % de aumento: "))
+#novoValor = calcular_aumento(numero, percentual)
+#print("O novo valor após o aumento é:", novoValor)
